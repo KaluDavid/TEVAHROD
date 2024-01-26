@@ -117,7 +117,15 @@ main {
     margin: 10% 5% 5% 5%;
     padding: 20px;
     box-shadow: gray 2px 2px 2px 2px;
+    /* box-shadow: gray 0px 0px 2px 2px; */
     border-radius: 10px;
+    transition: transform 0.8s ease-in-out;
+
+}
+
+
+.about_us:hover {
+    transform: scale(1.05);
 }
 
 .about_us h2 {
