@@ -113,12 +113,16 @@ main {
 /* About Us */
 .about_us {
     margin: 10% 5% 5% 5%;
-    padding: 20px;
+    padding: 30px 20px;
     box-shadow: gray 2px 2px 2px 2px;
     /* box-shadow: gray 0px 0px 2px 2px; */
     border-radius: 10px;
     transition: transform 0.8s ease-in-out;
 
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
@@ -129,4 +133,44 @@ main {
 .about_us h2 {
     color: #1572E0;
     font-family: Space Grotesk;
+    font-size: 20px;
+    /* padding-bottom: 10px; */
+}
+
+.about_us h3 {
+    /* color: #1572E0; */
+    font-family: Roboto;
+    font-size: 30px;
+    color: black;
+    /* padding-bottom: 10px; */
+}
+
+.about_us p {
+    font-weight: 500;
+    line-height: 25px;
+    color: black;
+    /* padding-bottom: 20px; */
+}
+
+.about_us button {
+    padding: 10px 20px;
+    border-radius: 24px;
+
+    font-family: Space Grotesk;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    box-shadow: #1572E0 1px 1px 1px 1px;
+    border: none;
+    transition: transform 0.8s ease-in-out;
+}
+
+
+.about_us button:hover {
+    /* background: white; */
+    background: #1572E0;
+    color: white;
+    transition-duration: 1s;
+    box-shadow: none;
+    transform: scale(1.05);
 }
