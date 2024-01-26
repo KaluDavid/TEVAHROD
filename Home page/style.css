@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Onest:wght@400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'montserrat';
+}
+
+/* Header */
+header {
+    padding: 24px;
+    font-family: 'Onest', sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #E1E1E1;
+    overflow-x: hidden;
+    position: fixed;
+}
+
+header div img {
+    width: 20%;
+}
+
+/* Hamburger Menu */
+.span {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.span span {
+    background-color: black;
+    padding: 1px;
+    width: 35px;
+
+}
+
+
+/* nav */
+nav {
+    display: none;
+}
+
+nav ol {
+    display: flex;
+    flex-direction: column;
+    list-style: decimal-leading-zero;
+    /* gap: 5%; */
+    white-space: nowrap;
+    font-size: 20px;
+    align-items: flex-start;
+    padding-left: 20%;
+}
+
+/* .ul {
+    font-weight: 900;
+    border-bottom: 3px solid rgb(230, 230, 39);
+    line-height: 50px;
+} */
