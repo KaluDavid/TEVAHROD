@@ -17,7 +17,7 @@ body {
 
 /* Header */
 header {
-    padding: 24px;
+    padding: 10px 24px;
     font-family: 'Onest', sans-serif;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ main {
     background-size: cover;
     background-position: center;
     /* filter: brightness(50%); */
-
+    border-radius: 0 0 50% 50% / 20px 20px 0 0;
     height: 50vh;
 }
 
@@ -109,4 +109,18 @@ main {
 .hero-section strong {
     color: rgb(199, 199, 6);
 
+}
+
+
+/* About Us */
+.about_us {
+    margin: 10% 5% 5% 5%;
+    padding: 20px;
+    box-shadow: gray 2px 2px 2px 2px;
+    border-radius: 10px;
+}
+
+.about_us h2 {
+    color: #1572E0;
+    font-family: Space Grotesk;
 }
