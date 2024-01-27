@@ -29,7 +29,7 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 
@@ -261,6 +261,7 @@ main {
 
 .offer_content div:hover {
     transform: scale(1.09);
+    opacity: 1;
 }
 
 .fa {
@@ -268,6 +269,38 @@ main {
     font-size: 50px;
 
 
+}
+
+.fas {
+    color: #0091dc;
+    font-size: 50px;
+}
+
+#fa {
+    color: #0091dc;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+.offer_content a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #0091dc;
+    padding-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    opacity: 0;
+}
+
+.offer_content a:hover {
+    opacity: 1;
+}
+
+.offer_content strong {
+    display: flex;
+    align-items: center;
+    gap: 0px;
 }
 
 .material-icons {
