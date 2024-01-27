@@ -21,7 +21,7 @@ header {
     font-family: 'Onest', sans-serif;
     display: flex;
     align-items: center;
-    /* border-bottom: 2px solid #E1E1E1; */
+    border-bottom: 2px solid #E1E1E1;
     overflow-x: hidden;
     position: fixed;
     z-index: 2;
@@ -29,6 +29,7 @@ header {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    
 }
 
 
@@ -107,7 +108,8 @@ main {
 .about {
     display: flex;
     align-items: center;
-    margin: 10% 5% 5% 0%;
+    margin: 10% 5% 0% 0%;
+    width: 100%;
 }
 
 .about .img {
@@ -148,6 +150,7 @@ main {
     color: #0091dc;
     font-family: Space Grotesk;
     font-size: 20px;
+    font-weight: 100;
     /* padding-bottom: 10px; */
 }
 
@@ -190,4 +193,92 @@ main {
     transition-duration: 1s;
     box-shadow: none;
     transform: scale(1.05);
+}
+
+
+/* what we offer */
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10% 5% 10% 0%;
+}
+
+.offer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 5%;
+}
+
+.offer h2 {
+    color: #0091dc;
+    font-family: Space Grotesk;
+    font-size: 20px;
+    font-weight: 100;
+
+}
+
+.offer h3 {
+    font-family: Roboto;
+    font-size: 40px;
+    color: black;
+
+    padding-bottom: 10px;
+}
+
+
+.paint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.offer_content {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
+}
+
+.offer_content div {
+    height: 30vh;
+    text-align: center;
+    width: 20rem;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    transition: transform 0.8s ease-in-out;
+}
+
+.offer_content div:hover {
+    transform: scale(1.09);
+}
+
+.fa {
+    color: #0091dc;
+    font-size: 50px;
+
+
+}
+
+.material-icons {
+    color: #0091dc;
+    font-size: 50px;
+
+
+}
+
+.offer_content div p {
+    font-size: 22px;
+    font-weight: 900;
+    font-family: Roboto;
 }
