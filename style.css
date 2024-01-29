@@ -203,6 +203,7 @@ main {
     align-items: center;
     width: 100%;
     margin: 10% 5% 10% 0%;
+    gap: 50px;
 }
 
 .offer {
@@ -211,7 +212,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding-bottom: 5%;
+    /* padding-bottom: 5%; */
 }
 
 .offer h2 {
@@ -271,37 +272,7 @@ main {
 
 }
 
-.fas {
-    color: #0091dc;
-    font-size: 50px;
-}
 
-#fa {
-    color: #0091dc;
-    font-size: 25px;
-    font-weight: 100;
-}
-
-.offer_content a {
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    color: #0091dc;
-    padding-top: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    opacity: 0;
-}
-
-.offer_content a:hover {
-    opacity: 1;
-}
-
-.offer_content strong {
-    display: flex;
-    align-items: center;
-    gap: 0px;
-}
 
 .material-icons {
     color: #0091dc;
@@ -315,6 +286,8 @@ main {
     font-weight: 900;
     font-family: Roboto;
 }
+
+
 
 
 /* Why choose us */
@@ -332,16 +305,43 @@ main {
     padding-bottom: 5%;
 }
 
+.serve {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .experience {
     display: flex;
-    gap: 5%;
+    gap: 3%;
+    align-items: flex-start;
+}
+
+.experience div {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
 }
 
 .experience .fa {
     color: white;
     font-size: 20px;
     background-color: #0091dc;
-    padding: 10px;
-    border-radius: 50%;
     text-align: center;
+    height: 3rem;
+    width: 3.2rem;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+.experience h4 {
+    font-size: 20px;
+    color: #0091dc;
+
+    /* #02245B; */
+}
+
+.experience ul {
+    list-style: none;
+    line-height: 1.5rem;
 }
