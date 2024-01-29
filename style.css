@@ -292,17 +292,48 @@ main {
 
 /* Why choose us */
 .us {
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    gap: 50px;
+}
+
+.us video {
+    border-radius: 0px 30px;
+    width: 27rem;
+    object-fit: cover;
+    position: relative;
+}
+
+.vid {
+    color: white;
+    font-size: 20px;
+    background-color: #0091dc;
+    text-align: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    padding-top: 30px;
+    position: absolute;
+    left: 20%;
+    top: 170rem;
+    
 }
 
 .we {
     text-align: left;
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
+    align-items: flex-start;
     gap: 10px;
     padding-bottom: 5%;
+}
+
+.we p {
+    font-weight: 500;
+    line-height: 30px;
+    color: black;
+    padding-bottom: 20px;
 }
 
 .serve {
@@ -329,7 +360,7 @@ main {
     background-color: #0091dc;
     text-align: center;
     height: 3rem;
-    width: 3.2rem;
+    width: 3rem;
     border-radius: 50%;
     padding-top: 15px;
 }
@@ -338,10 +369,10 @@ main {
     font-size: 20px;
     color: #0091dc;
 
-    /* #02245B; */
+
 }
 
 .experience ul {
     list-style: none;
-    line-height: 1.5rem;
+    line-height: 30px;
 }
