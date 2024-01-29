@@ -32,7 +32,6 @@ header {
 
 }
 
-
 /* span */
 span {
     display: none;
@@ -296,9 +295,10 @@ main {
     align-items: center;
     margin: 5%;
     gap: 50px;
+    width: 100%;
 }
 
-.us video {
+.video-container video {
     border-radius: 0px 30px;
     width: 27rem;
     object-fit: cover;
@@ -317,7 +317,12 @@ main {
     position: absolute;
     left: 20%;
     top: 170rem;
-    
+    cursor: pointer;
+    display: none;
+}
+
+.video-container:hover .vid {
+    display: block;
 }
 
 .we {
@@ -376,3 +381,8 @@ main {
     list-style: none;
     line-height: 30px;
 }
+
+
+
+
+
