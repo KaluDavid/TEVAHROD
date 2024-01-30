@@ -104,6 +104,8 @@ main {
 
 
 /* About Us */
+
+
 .about {
     display: flex;
     align-items: center;
@@ -382,7 +384,39 @@ main {
     line-height: 30px;
 }
 
+/* arrow 
+.arrow {
+    color: rgb(197, 31, 31);
+    font-size: 50px;
+    background-color: #0091dc;
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    padding-top: 15px;
+    position: fixed;
+    z-index: 3;
+    right: 0;
+    float: right;
+}
+*/
 
 
+/* Our services */
 
+.services section div img {
+    height: 40vh;
+    object-fit: contain;
+    width: 50%;
+    transition: transform 0.8s ease-in-out;
+    border-radius: 12px;
+}
 
+.services section div img:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.services section div {
+    display: flex;
+}
