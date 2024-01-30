@@ -69,6 +69,7 @@ main {
     height: 85vh;
 }
 
+
 .hero-section div {
     backdrop-filter: brightness(30%);
     width: 100%;
@@ -385,22 +386,6 @@ main {
     line-height: 30px;
 }
 
-/* arrow 
-.arrow {
-    color: rgb(197, 31, 31);
-    font-size: 50px;
-    background-color: #0091dc;
-    text-align: center;
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    padding-top: 15px;
-    position: fixed;
-    z-index: 3;
-    right: 0;
-    float: right;
-}
-*/
 
 
 /* Our services */
@@ -412,7 +397,7 @@ main {
 }
 
 .services section div img {
-    height: 50vh;
+    height: 70vh;
     object-fit: contain;
     width: 50%;
     transition: transform 0.8s ease-in-out;
@@ -421,10 +406,52 @@ main {
 
 .services section div img:hover {
     transform: scale(1.09);
-    opacity: 1;
 }
 
 .services section div {
     display: flex;
     gap: 40px;
+}
+
+.services section div video {
+    height: 70vh;
+    object-fit: cover;
+    width: 50%;
+    transition: transform 0.8s ease-in-out;
+    border-radius: 12px;
+}
+
+.services section div video:hover {
+    transform: scale(1.09);
+
+}
+
+/* arrow */
+.straight {
+    margin: 2%;
+    background-color: #1572E0;
+    width: 4rem;
+    height: 4rem;
+    padding: 1px 5px 1px 15px;
+    border-radius: 50%;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 30rem;
+    text-decoration: none;
+}
+
+.straight:hover {
+    color: #1572E0;
+    background-color: white;
+    border: 1px solid #1572E0;
+}
+
+.arrow {
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+
 }
