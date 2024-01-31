@@ -24,7 +24,7 @@ header {
     border-bottom: 2px solid #E1E1E1;
     overflow-x: hidden;
     position: fixed;
-    z-index: 2;
+    z-index: 4;
     width: 100%;
     background-color: white;
     display: flex;
@@ -67,6 +67,8 @@ main {
     background-size: cover;
     /* background-position: center; */
     height: 85vh;
+    position: relative;
+    z-index: 3;
 }
 
 
@@ -437,8 +439,8 @@ main {
     color: #fff;
     cursor: pointer;
     position: fixed;
-    z-index: 5;
-    left: 0;
+    z-index: 2;
+    right: 0;
     top: 30rem;
     text-decoration: none;
 }
