@@ -436,7 +436,7 @@ main {
     background-color: #1572E0;
     width: 4rem;
     height: 4rem;
-    padding: 1px 5px 1px 15px;
+    padding: 1px 1px 1px 17px;
     border-radius: 50%;
     color: #fff;
     cursor: pointer;
@@ -466,4 +466,40 @@ footer {
     background-color: #02245B !important;
     color: white;
     display: flex;
+    gap: 10%;
+    padding: 5% 10% 3% 10%;
+    height: 50vh;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+.teva {
+    width: 40%;
+    line-height: 30px;
+}
+
+.quick {
+    width: 30%;
+}
+
+.quick {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+footer ol {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Office */
+.office {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
