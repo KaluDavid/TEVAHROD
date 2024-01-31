@@ -421,6 +421,8 @@ main {
     width: 50%;
     transition: transform 0.8s ease-in-out;
     border-radius: 12px;
+    box-shadow: rgb(243, 235, 235) 0px 0px 30px 10px;
+
 }
 
 .services section div video:hover {
@@ -456,4 +458,12 @@ main {
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
 
+}
+
+
+/* footer */
+footer {
+    background-color: #02245B !important;
+    color: white;
+    display: flex;
 }
