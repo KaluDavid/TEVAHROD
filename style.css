@@ -151,7 +151,7 @@ main {
 }
 
 .about_us h2 {
-    color: #0091dc;
+    color: #FF5E14;
     font-family: Space Grotesk;
     font-size: 20px;
     font-weight: 100;
@@ -192,6 +192,7 @@ main {
 
 
 .learn_more button:hover {
+    /* background: #1572E0; */
     background: #1572E0;
     color: white;
     transition-duration: 1s;
@@ -220,7 +221,7 @@ main {
 }
 
 .offer h2 {
-    color: #0091dc;
+    color: #FF5E14;
     font-family: Space Grotesk;
     font-size: 20px;
     font-weight: 100;
@@ -314,7 +315,7 @@ main {
 .vid {
     color: white;
     font-size: 20px;
-    background-color: #0091dc;
+    background-color: #FF5E14;
     text-align: center;
     height: 5rem;
     width: 5rem;
@@ -368,7 +369,7 @@ main {
 .experience .fa {
     color: white;
     font-size: 20px;
-    background-color: #0091dc;
+    background-color: #FF5E14;
     text-align: center;
     height: 3rem;
     width: 3rem;
@@ -378,9 +379,9 @@ main {
 
 .experience h4 {
     font-size: 20px;
-    color: #0091dc;
+    /* color: #0091dc; */
 
-
+    color: #FF5E14;
 }
 
 .experience ul {
@@ -433,7 +434,7 @@ main {
 /* arrow */
 .straight {
     margin: 2%;
-    background-color: #1572E0;
+    background-color: #FF5E14;
     width: 4rem;
     height: 4rem;
     padding: 1px 1px 1px 17px;
@@ -448,9 +449,9 @@ main {
 }
 
 .straight:hover {
-    color: #1572E0;
+    color: #FF5E14;
     background-color: white;
-    border: 1px solid #1572E0;
+    border: 1px solid #FF5E14;
 }
 
 .arrow {
@@ -509,4 +510,17 @@ footer ol {
 /* Office */
 .office ol div {
     display: flex;
+    gap: 10px;
+}
+
+#office {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FF5E14;
+}
+
+#office1 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #FF5E14;
 }
