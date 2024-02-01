@@ -369,7 +369,7 @@ main {
 .experience .fa {
     color: white;
     font-size: 20px;
-    background-color: #FF5E14;
+    background-color: #0091dc;
     text-align: center;
     height: 3rem;
     width: 3rem;
@@ -381,7 +381,7 @@ main {
     font-size: 20px;
     /* color: #0091dc; */
 
-    color: #FF5E14;
+    color: #0091dc;
 }
 
 .experience ul {
@@ -503,6 +503,7 @@ footer ol {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    align-items: flex-start;
 }
 
 
@@ -511,6 +512,7 @@ footer ol {
 .office ol div {
     display: flex;
     gap: 10px;
+    align-items: flex-start;
 }
 
 #office {
@@ -523,4 +525,9 @@ footer ol {
     font-size: 27px;
     font-weight: 900;
     color: #FF5E14;
+}
+
+.office a {
+    text-decoration: none;
+    color: white;
 }
