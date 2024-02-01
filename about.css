@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Onest:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=New+Rocker&family=Space+Grotesk:wght@300&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'montserrat';
+}
+
+/* Header */
+header {
+    padding: 24px;
+    padding-left: 5%;
+    font-family: 'Onest', sans-serif;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #E1E1E1;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+/* LOGO */
+.header {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+
+.header strong {
+    font-size: 20px;
+    color: #0091dc;
+}
+
+header p {
+    display: flex;
+    align-items: first baseline baseline;
+    gap: 5px;
+}
+
+.header .rotate {
+    width: 10%;
+    object-fit: contain;
+}
+
+.header small {
+    font-size: 12px;
+}
+
+/* span */
+span {
+    display: none;
+}
+
+nav ol {
+    display: flex;
+    list-style: none;
+    gap: 35%;
+    white-space: nowrap;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav {
+    color: #1572E0;
+    font-weight: 600;
+
+}
+
+
+
+
+/* Main */
+main {
+    overflow-x: hidden;
+    width: 100%;
+    padding-top: 5%;
+}
+
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #02245B !important;
+    color: white;
+    display: flex;
+    gap: 10%;
+    padding: 5% 10% 10% 10%;
+    align-items: center;
+}
+
+.align {
+    display: flex;
+    gap: 10%;
+    align-items: flex-start;
+}
+
+footer h3 {
+    font-size: 20px;
+}
+
+footer ol {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+/* Teva */
+.teva {
+    width: 40%;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teva .header strong {
+    color: white;
+
+}
+
+/* Quick links */
+.quick {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+
+
+/* Office */
+.office ol div {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+#office {
+    font-size: 20px;
+    font-weight: 900;
+    color: #FF5E14;
+}
+
+#office1 {
+    font-size: 27px;
+    font-weight: 900;
+    color: #FF5E14;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
