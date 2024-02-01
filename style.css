@@ -33,29 +33,31 @@ header {
 
 }
 
-header div div {
+/* LOGO */
+.header {
     display: flex;
     flex-direction: column;
+    gap: 0px;
 }
 
 
-header div strong {
+.header strong {
     font-size: 20px;
     color: #0091dc;
 }
 
-header div p {
+header p {
     display: flex;
-    align-items: center;
+    align-items: first baseline baseline;
+    gap: 5px;
 }
 
-header .rotate {
+.header .rotate {
     width: 10%;
     object-fit: contain;
-    transform: rotate(40deg);
 }
 
-header div small {
+.header small {
     font-size: 12px;
 }
 
@@ -523,6 +525,14 @@ footer ol {
 .teva {
     width: 40%;
     line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teva .header strong {
+    color: white;
+
 }
 
 /* Quick links */
