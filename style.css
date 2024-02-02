@@ -334,7 +334,7 @@ main {
 .us {
     display: flex;
     align-items: center;
-    margin: 5%;
+    padding: 5%;
     gap: 50px;
     width: 100%;
 }
@@ -380,6 +380,7 @@ main {
     line-height: 30px;
     color: black;
     padding-bottom: 20px;
+    /* width: 90%; */
 }
 
 .serve {
