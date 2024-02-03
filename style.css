@@ -412,6 +412,10 @@ main {
     padding-top: 15px;
 }
 
+#fa {
+    width: 3.5rem;
+}
+
 .experience h4 {
     font-size: 20px;
     /* color: #0091dc; */
@@ -506,6 +510,7 @@ footer {
     gap: 10%;
     padding: 7% 5%;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .align {
@@ -577,4 +582,95 @@ footer .header p {
 footer a {
     text-decoration: none;
     color: white;
+}
+
+
+
+
+
+/* media querry */
+@media screen and (max-width:1321px) {
+    header {
+        justify-content: initial;
+        gap: 22%;
+    }
+
+    .straight {
+        top: 20rem;
+    }
+}
+
+/* screen 1195 */
+@media screen and (max-width:1195px) {
+    header {
+        gap: 18%;
+    }
+
+
+}
+
+/* screen 1131 */
+@media screen and (max-width:1131px) {
+    header {
+        gap: 12%;
+    }
+
+    .hero-section h1 {
+        font-size: 50px;
+    }
+
+    .hero-section .learn_more button {
+        padding: 15px 60px;
+    }
+
+    #fa {
+        /* width: 3.5rem; */
+        padding: 15px;
+    }
+
+
+    .offer_content div {
+        width: 17rem;
+
+
+    }
+}
+
+
+/* screen 1051 */
+@media screen and (max-width:1051px) {
+    header {
+        gap: 10%;
+
+    }
+
+    nav ol {
+        gap: 23%;
+
+    }
+
+    .about_us {
+
+        width: 70%;
+
+    }
+
+    .about .img {
+        right: 15%;
+
+    }
+
+    .offer_content div {
+        width: 15rem;
+
+
+    }
+
+    footer {
+        gap: 10%;
+    }
+
+    .quick {
+        width: 0%;
+    }
 }
