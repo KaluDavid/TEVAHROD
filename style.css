@@ -541,6 +541,11 @@ footer ol {
 
 }
 
+footer .header p {
+    display: flex;
+    gap: 0;
+}
+
 /* Quick links */
 .quick {
     width: 30%;
@@ -562,13 +567,11 @@ footer ol {
 #office {
     font-size: 20px;
     font-weight: 900;
-    color: #FF5E14;
 }
 
 #office1 {
     font-size: 27px;
     font-weight: 900;
-    color: #FF5E14;
 }
 
 footer a {
