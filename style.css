@@ -17,8 +17,8 @@ body {
 
 /* Header */
 header {
-    padding: 24px;
-    padding-left: 5%;
+    /* padding: 24px; */
+    padding-left: 24px;
     font-family: 'Onest', sans-serif;
     display: flex;
     align-items: center;
@@ -27,9 +27,9 @@ header {
     position: fixed;
     z-index: 4;
     width: 100%;
+    gap: 30%;
     background-color: white;
     display: flex;
-    justify-content: space-between;
 
 }
 
@@ -39,39 +39,22 @@ header a {
 }
 
 /* LOGO */
-.header {
-    display: flex;
-    flex-direction: column;
-    gap: 0px;
-}
-
-
-.header strong {
-    font-size: 20px;
-    color: #0091dc;
-}
-
-header p {
-    display: flex;
-    align-items: first baseline baseline;
-    gap: 5px;
-}
-
-.header .rotate {
-    width: 10%;
-    object-fit: contain;
-}
-
-.header small {
-    font-size: 12px;
+header img{
+width: 20%;
+height: 10%;
+object-fit: contain;
 }
 
 /* span */
-span {
+.span {
+    display: none;
+}
+.off-screen-menu{
     display: none;
 }
 
-nav ol {
+/* nav */
+nav .navMenu ol {
     display: flex;
     list-style: none;
     gap: 35%;
@@ -86,6 +69,10 @@ nav ol {
     font-weight: 600;
 
 }
+
+
+
+
 
 /* Main */
 main {
@@ -536,20 +523,8 @@ footer ol {
 .teva {
     width: 40%;
     line-height: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
 }
 
-.teva .header strong {
-    color: white;
-
-}
-
-footer .header p {
-    display: flex;
-    gap: 0;
-}
 
 /* Quick links */
 .quick {
@@ -673,4 +648,75 @@ footer a {
     .quick {
         width: 0%;
     }
+}
+
+
+/* screen 768*/
+@media screen and (max-width:768px) {
+    header{
+        gap: 0%;
+        justify-content: space-between;
+        padding: 20px;
+        padding-right: 10%;
+    }
+    .navMenu {
+        display: none;
+    }
+
+    .span{
+        display: block;
+        display: flex;
+
+    }
+    
+
+    .span span {
+        width: 40px;
+        height: 3px;
+        background-color: black;
+    }
+    .span1 {
+        position: relative;
+        transform: rotate(50deg);
+        transition-duration: 1s;
+      
+    }
+
+    .span2 {
+        position: absolute;
+        transform: rotate(-50deg);
+        transition-duration: 1s;
+    }
+
+
+    .off-screen-menu {
+        background-color: white;
+        height: 70vh;
+        position: fixed;
+        width: 100%;
+        z-index: 2;
+        padding: 32px 50px;
+        display: none;
+        top: 13%;
+        z-index: 4;
+    }
+
+   .off-screen-menu ol {
+       display: flex;
+       flex-direction: column;
+       gap: 30px;
+    }
+
+   .off-screen-menu ol a {
+        font-family: Space Grotesk;
+        font-size: 23px;
+text-decoration: none;
+        font-weight: 700;
+        text-align: left;
+        color: #3A3A3A;
+        list-style: none;
+        backdrop-filter: blur(60px);
+    }
+
+
 }
