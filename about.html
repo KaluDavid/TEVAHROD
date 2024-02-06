@@ -15,37 +15,53 @@
 <body>
     <!-- header -->
     <header>
-     <!-- logo -->
-<img src="contents/logo-removebg-preview.png" alt="">
-
-
+        <!-- logo -->
+        <img src="contents/logo-removebg-preview.png" alt="" />
+  
         <!-- nav -->
         <nav>
+          <div class="navMenu">
             <ol>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="">
-                    <li class="nav">About</li>
-                </a>
-                <a href="services.html">
-                    <li>Services</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
+              <a href="index.html">
+                <li class="nav">Home</li>
+              </a>
+              <a href="">
+                <li>About</li>
+              </a>
+              <a href="services.html">
+                <li>Services</li>
+              </a>
+              <a href="contact.html">
+                <li>Contact</li>
+              </a>
             </ol>
-
+          </div>
+  
+          <div class="span" onclick="hamburgerMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
         </nav>
-
-        <!-- hamburger menu-->
-        <div class="span" onclick="hamburgerMenu()">
-            <span class="span1"></span>
-            <span class="span2"></span>
-            <span class="span3"></span>
-        </div>
-    </header>
-
+      </header>
+  
+      <section class="off-screen-menu" id="visible">
+        <ol>
+          <a href="">
+            <li class="nav">Home</li>
+          </a>
+          <a href="about.html">
+            <li>About</li>
+          </a>
+          <a href="services.html">
+            <li>Services</li>
+          </a>
+          <a href="contact.html">
+            <li>Contact</li>
+          </a>
+        </ol>
+      </section>
+  
 
     <!-- main -->
     <main>
