@@ -656,9 +656,17 @@ footer a {
     header{
         gap: 0%;
         justify-content: space-between;
-        padding: 20px;
-        padding-right: 10%;
+        padding-left: 10px;
+        padding-right: 5%;
     }
+    /* LOGO */
+header img{
+    width: 15rem;
+    height: 10%;
+    object-fit: contain;
+    }
+
+
     .navMenu {
         display: none;
     }
@@ -666,29 +674,23 @@ footer a {
     .span{
         display: block;
         display: flex;
+        flex-direction: column;
+        gap: 5px;
+        padding: 10px;
+        border: 2px solid #1572E0;
+        border-radius: 10px;
 
     }
     
 
+    
     .span span {
-        width: 40px;
+        width: 2rem;
         height: 3px;
         background-color: black;
-    }
-    .span1 {
-        position: relative;
-        transform: rotate(50deg);
-        transition-duration: 1s;
-      
-    }
 
-    .span2 {
-        position: absolute;
-        transform: rotate(-50deg);
-        transition-duration: 1s;
     }
-
-
+ 
     .off-screen-menu {
         background-color: white;
         height: 70vh;
@@ -699,6 +701,7 @@ footer a {
         display: none;
         top: 13%;
         z-index: 4;
+    
     }
 
    .off-screen-menu ol {
@@ -715,7 +718,7 @@ text-decoration: none;
         text-align: left;
         color: #3A3A3A;
         list-style: none;
-        backdrop-filter: blur(60px);
+      
     }
 
 
